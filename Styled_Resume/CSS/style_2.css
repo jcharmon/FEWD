@@ -25,9 +25,37 @@ body {
   text-align: right;
   list-style-type: none;
   position: relative;
-  padding:10px;
+  padding:20px;
   padding-right: 20px;
   text-decoration: none;
+}
+
+a:link {
+    color: #424242;
+    text-decoration: none;
+
+}
+
+/* visited link */
+a:visited {
+    color: #424242;
+    text-decoration: none;
+
+}
+
+/* mouse over link */
+a:hover {
+    color: #000000;
+    font-weight: bolder;
+    text-decoration: none;
+
+}
+
+/* selected link */
+a:active {
+    color: #424242;
+    text-decoration: none;
+
 }
 
 nav li{
@@ -57,7 +85,7 @@ header h1 {
   font-family: 'Montserrat', sans-serif;
   text-align: left;
   letter-spacing: 2px;
-  padding-top: 60px;
+  padding-top: 30px;
   margin-bottom: 5px;
 }
 
