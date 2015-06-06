@@ -46,10 +46,10 @@ nav li{
 }
 
 header {
-  width: 60%;
+  width: 70%;
   height: auto;
   position: relative;
-  left: 20%;
+  left: 10%;
 }
 
 header h1 {
@@ -58,7 +58,7 @@ header h1 {
   text-align: left;
   letter-spacing: 2px;
   padding-top: 60px;
-  margin-bottom: 0px;
+  margin-bottom: 5px;
 }
 
 h2 {
@@ -76,18 +76,23 @@ h3 {
   -webkit-column-span: all;
 }
 
-#education ul {
-  list-style-type: none;
+h4 {
+
 }
 
+#skills {
+  -webkit-column-count: 4; /* Chrome, Safari, Opera */
+
+}
 
 #social {
+  margin-top: 50px;
   word-spacing: 10px;
 
 }
 
 #container {
-  width: 60%;
+  width: 70%;
   height: auto;
   position: relative;
-  left: 20%;
+  left: 10%;
