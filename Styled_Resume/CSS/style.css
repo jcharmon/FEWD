@@ -69,7 +69,6 @@ nav li{
   display: inline;
   word-spacing: 20px;
   text-decoration: none;
-
 }
 
 
@@ -132,10 +131,8 @@ p {
   font-family: 'Montserrat', sans-serif;
   color: black;
   position: relative;
-
   }
 
-}
 .button {
   padding: 8px;
   text-decoration: none;
