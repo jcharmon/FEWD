@@ -85,7 +85,6 @@ header h1 {
   font-family: 'Montserrat', sans-serif;
   text-align: left;
   letter-spacing: 2px;
-  padding-top: 30px;
   margin-bottom: 5px;
 }
 
@@ -110,13 +109,12 @@ h4 {
 
 #skills {
   -webkit-column-count: 4; /* Chrome, Safari, Opera */
-
 }
 
 #social {
   margin-top: 50px;
   word-spacing: 10px;
-
+  opacity: 1px;
 }
 
 #container {
