@@ -1,94 +1,10 @@
 /*
-Fashion Blog
-Client: GA
-Author: Jordan Harmon
-Developer @GA in LA
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
 */
 
-
-* {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
-}
-
-
-body {
-     color: #121212;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: lato;
-     margin-top: 25px;
-}
-
-
-#container {
-	width: 60%;
-  height:auto;
-  position: relative;
-  left: 5%;
-	margin: 0;
-  padding: 0;
-}
-
-h1 a {
-  color: red;
-  text-decoration: none;
-  font-size: 25px;
-  font-family: lato;
-  font-weight: lighter;
-}
-
-h2 {
-  font-size:14px;
-  padding-bottom: 10px;
-}
-
-nav a{
-  color: grey;
-  text-decoration: underline;
-  font-size: 13px;
-  padding: 10px;
-}
-
-h2 a {
-  font-size: 20px;
-  text-decoration: none;
-  color: black;
-}
-
-article img {
-  width: 100%;
-  padding bottom: 10px;
-}
-
-h3 {
-  padding-top: 20px;
-  color: grey;
-  font-size: 18px;
-}
-
-h4 {
-  text-align: right;
-
-}
-h4 a {
-  text-decoration: none;
-  color: red;
-  padding-bottom: 30px;
-}
-
-p {
-  padding-top: 10px;
-  line-height: 20px;
-}
-
-hr {
-  noshade;
-}
-
-#bottomnav a{
-  color: red;
-  text-decoration: none;
-  font-size: 10px;
-}
+@import url('reset.css');
+@import url('base.css');
+@import url('layout.css');

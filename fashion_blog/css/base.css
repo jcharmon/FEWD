@@ -1,0 +1,118 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firefox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #434343;
+     font-size: 16px;
+     line-height: 1.4;
+     font-family: lato;}
+
+/*.preview {
+  background-image: url(../img/fashion_blog_part2.png);
+  background-repeat: no-repeat;
+}*/
+
+h1 {
+  font-size: 3.0em;
+  text-decoration: none;
+  color: red;
+}
+
+h1 a {
+  text-decoration: none;
+  color: red
+
+}
+
+h2 {
+  font-size: 1.6em;
+
+}
+
+.subheading {
+  font-size: 1.6em;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  background-color: black;
+  padding: 15px;
+
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+
+}
+
+h2 a {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: black;
+  margin-top:
+}
+
+h3 {
+  font-size: 2.5em;
+}
+
+h3 a {
+  text-decoration: none;
+  color: grey;
+}
+
+h4 {
+  font-size: 1.3em;
+  padding-bottom: 2.0em;
+  text-align:right;
+
+}
+
+h4 a {
+  text-decoration: none;
+}
+
+h5 {
+  font-size: 1.0em;
+  font-weight: bold;
+}
+
+.popular ul {
+  color: grey;
+  margin-left: 20px;
+
+}
+.popular ul li {
+color: red;
+
+
+
+h6 {
+  font-size: 0.6em;
+}
+
+p {
+  line-height: 1.3em;
+  padding bottom: 20px;
+  font-size: 14px;
+}
