@@ -10,7 +10,7 @@
 
 body {
     color: #121212;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.4;
     font-family: 'Open Sans', sans-serif;
     background-color:#FAFAFA;
@@ -26,13 +26,13 @@ body {
   padding: 0;
 }
 
-.menu {
+nav {
 
   text-align: right;
   list-style-type: none;
   position: relative;
-  padding:20px;
-  padding-right: 20px;
+  padding:40px;
+  padding-right: 40px;
   text-decoration: none;
 }
 
@@ -52,7 +52,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-    color: #000000;
+    color: #BA77FF;
     font-weight: bolder;
     text-decoration: none;
 
@@ -71,10 +71,18 @@ nav li{
   text-decoration: none;
 }
 
+header {
+  text-align: center;
+}
+
+header img {
+  width: 80px;
+  height: 80px;
+}
 
 
 header h1 {
-  font-size: 30pt;
+  font-size: 25pt;
   font-weight: 100;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
@@ -82,43 +90,31 @@ header h1 {
   padding-top: 30px;
   margin-bottom: 10px;
   margin-top: 0px;
-  color: green;
-  -webkit-animation-name: color;
-  -webkit-animation-duration: 5s; /* Chrome, Safari, Opera */
-  animation-name: color;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
+  color: black;
 }
 
-@-webkit-keyframes color {
-    from {color:green;}
-    to {color: blue;}
-}
 
 hr {
-  width: 50%;
-  background-color: green;
+  width: 10%;
+  background-color:#BA77FF;
   color: green;
-  margin-top: 2px;
-  margin-bottom: 20px;
-}
-
-header div {
-  text-align: center;
-}
-
-
-section div {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  text-align: center;
-  line-height: 30px;
   margin-top: 20px;
+  padding: 2px;
+  border: none;
 }
 
-#about {
-padding-bottom: 20px;
+
+
+section {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  line-height: 40px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+
 }
+
 
 footer {
   padding top: 10px;
@@ -145,6 +141,8 @@ footer {
   text-align: center;
   position: relative;
   font-family: 'Montserrat', sans-serif;
+  margin: 0;
+
 }
 
 #social {
@@ -162,8 +160,16 @@ img.opacity:hover {
  filter: alpha(opacity=70);
  }
 
+p {
+  color: #BA77FF;
+  margin: 0;
+}
+
 #container {
   width: 60%;
   height: auto;
   position: relative;
   left: 20%;
+
+
+}
