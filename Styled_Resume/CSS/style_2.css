@@ -150,13 +150,13 @@ section {
 
 
 .skills ul {
-  margin: 0;
-
 }
 
-.skills ul li {
-  margin: 0;
-  display: inline;
+.skills li {
+  display:inline;
+  list-style-type: none;
+  padding: 10px;
+
 }
 
 .social {
@@ -181,7 +181,6 @@ section {
 
 footer p {
   text-align: center;
-
 }
 
 
