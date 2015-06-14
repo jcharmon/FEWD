@@ -54,7 +54,7 @@ nav ul {
 nav ul li {
   display: inline-block;
   background-color: black;
-  padding: 15px;
+  padding: 12px;
 
 }
 
@@ -69,16 +69,18 @@ h2 a {
   font-size: 1.5em;
   text-decoration: none;
   color: black;
-  margin-top:
+  margin-top:10px;
 }
 
 h3 {
   font-size: 2.5em;
+  margin: 0;
+  margin-top: 10px;
 }
 
 h3 a {
   text-decoration: none;
-  color: grey;
+  color: #F0F0F0;
 }
 
 h4 {
@@ -90,6 +92,7 @@ h4 {
 
 h4 a {
   text-decoration: none;
+  color: red;
 }
 
 h5 {
@@ -99,12 +102,17 @@ h5 {
 
 .popular ul {
   color: grey;
-  margin-left: 20px;
+}
+
+.popular ul li {
+color: grey;
+margin-left: 1
 
 }
-.popular ul li {
-color: red;
 
+article h3 {
+  color:#F0F0F0;
+}
 
 
 h6 {
@@ -112,7 +120,32 @@ h6 {
 }
 
 p {
-  line-height: 1.3em;
+  line-height: 1.5em;
   padding bottom: 20px;
   font-size: 14px;
+}
+
+.bottom-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bottom-nav ul li {
+  display: inline;
+  padding: 5px;
+  border-style: solid;
+  border-left: 0px;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-width: thin;
+  border-color: #F0F0F0;
+
+}
+
+.bottom-nav ul li a {
+  font-size: 10px;
+  text-decoration: none;
+  color: red;
+  text-align: center;
 }
