@@ -18,12 +18,13 @@ header {
 .subheading {
   position: relative;
   display: inline-block;
-  padding: 20px;
+  padding-left: 30px;
 }
 
 
 nav {
   width: 100%;
+  margin-top: -30px;
 }
 
 nav ul {
@@ -44,7 +45,7 @@ nav ul li a {
 article {
   position: relative;
   float: left;
-  width: 90%;
+  width: 93%;
 }
 
 article img {
@@ -57,14 +58,39 @@ article p {
 
 article h4 a {
   float: right;
+  margin-top: -50px;
 }
+
+article hr {
+  margin-top: -48px;
+  margin-bottom: 50px;
+
+}
+
+h4 {
+  color: red;
+  font-size: 14px;
+  margin-top: 50px;
+
+}
+
+section {
+  float:left;
+  width: 70%;
+  margin-bottom: 9px;
+}
+
 
 .about {
   position: relative;
   float: right;
   width: 30%;
-  padding-top: 95px;
+  padding-top: 57px;
 
+  }
+
+.paragraph {
+    margin-bottom: 0px;
   }
 
 
@@ -74,28 +100,39 @@ article h4 a {
   width: 30%;
 }
 
+
+.about h4 {
+  margin-top: 27px;
+  font-size: 20px;
+  margin-bottom: -15px;
+  padding-right: 14px;
+}
+
+
+
 .box {
-  background-color: grey;
+  background-color: #cccccc;
   float: left;
   width:30%;
-  height:280px;
-  position: relative;
+  height:250px;
   margin-top: 15px;
   margin-bottom: 25px;
+
+  position: relative;
 }
 
 .box h1 {
   text-align: center;
-  padding: 10px;
-  color: black;
+  padding-top: 10px;
+  color: #969696;
+  font-family: 'Roboto Slab', serif;
+  font-size: 60pt;
+
 }
 
-h4 {
-  color: red;
-  font-size: 14px;
-  margin-top: 50px;
-  margin-bottom: 0;
-}
+
+
+
 
 .popular {
   position: relative;
@@ -103,30 +140,32 @@ h4 {
   width: 30%;
   }
 
-.popular ul {
-  margin-top: 10px;
-}
 
-section {
-  float:left;
-  width: 70%;
-  margin-bottom: 30px;
+
+.popular h4 {
+  margin-top: 27px;
+  font-size: 20px;
+  margin-bottom: -15px;
+  padding-right: 14px;
 }
 
 .bottom-nav{
   clear: both;
-  margin-top: 20
 }
 
 footer {
-  margin-left: 35px;
-  margin-top: 40px;
+  margin-top: 0px;
 }
 
+footer p {
+  margin-top: 25px;
+  color: grey;
+  font-size: 18px;
+}
 
 #container {
 margin:0 auto;
-margin-left:40px;
+margin-left:52px;
 margin-right: 40px;
-
+margin-top: 76px;
 }
