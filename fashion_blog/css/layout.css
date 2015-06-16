@@ -33,8 +33,8 @@ nav ul {
 }
 
 nav ul li {
-  width: 16.3%;
   position: relative;
+  width: 16%;
 }
 
 nav ul li a {
@@ -129,7 +129,6 @@ section {
   font-size: 60pt;
 
 }
-
 
 
 
