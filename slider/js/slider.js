@@ -5,43 +5,62 @@ Element.prototype.slider = function(){
    var slider = this;
    var wrapper = slider.children[0];
    var slides = wrapper.children;
-   var position = 1;
+   var position = 0;
    var width = window.innerWidth;
    var leftButton = document.createElement('div');
    var rightButton = document.createElement('div')
 
+   this.createButtons = function() {
 
-   var init = function(){
+      leftButton.classList.add('left');
+      rightButton.classList.add('right');
 
-     wrapper.style.width = slides.length * width + 'px';
-     wrapper.style.height = '100%'
-
-
-     leftButton.classList.add('left');
-     rightButton.classList.add('right');
-
-     slider.appendChild(leftButton);
-     slider.appendChild(rightButton);
-
-     for(var i=0; i<slides.length; i++) {
-       slides[i].style.width = width + 'px';
-     }
-
-     leftButton.addEventListener('mousedown', function(){
-       wrapper.style.marginLeft = width * position * -1 + 'px';
-       position = position + 1;
-     });
+      slider.appendChild(leftButton);
+      slider.appendChild(rightButton);
 
      rightButton.addEventListener('mousedown', function(){
 
-       wrapper.style.marginLeft= width * position * -1 + 'px';
-       position = position - 1;
+     if(position > (width * (slides.length - 1))* -1) { /*then*/
+     position = position - width;
+     wrapper.style.marginLeft = position + 'px';
+      }
 
-     });
+   });
 
-   };
+   leftButton.addEventListener('mousedown', function(){
 
-   init();
+     if(position < 0) {
+     position = position + width;
+     wrapper.style.marginLeft = position + 'px';
+     }
 
-};
+   });
+ };
+
+   this.resize = function (){
+
+      width = window.innerWidth;
+
+      wrapper.style.width = slides.length * width + 'px';
+      wrapper.style.height = '100%'
+
+      for(var i=0; i<slides.length; i++) {
+        slides[i].style.width = width + 'px';
+
+   }
+
+ };
+
+   this.init = function(){
+
+         this.createButtons();
+         this.resize();
+
+         window.addEventListener('resize', slider.resize);
+        };
+
+        this.init();
+  };
+
+
 /* end Slider */
