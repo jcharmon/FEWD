@@ -45,23 +45,3 @@
   -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
   transform: rotate(-90deg);
 }
-
-.menu {
-  position: absolute;
-  top: 0;
-  width:20%;
-  height: 100%;
-  z-index: 0;
-  cursor: pointer;
-  padding: 15px;
-  background-color: grey;
-}
-
-
-.hamburger {
-  height:40px;
-  widht:40px;
-  background:url('img/hamburger.svg');
-  z-index: 2;
-  position: absolute;
-}
