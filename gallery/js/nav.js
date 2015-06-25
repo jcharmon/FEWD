@@ -4,6 +4,8 @@ Element.prototype.Nav = function(){
       btn = document.createElement('div'),
       container = document.getElementById('container');
 
+
+
   this.toggleNav = function(){
     if(container.style.left === "0px"){
       container.style.left = "320px";
