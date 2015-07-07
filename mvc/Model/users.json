@@ -1,0 +1,46 @@
+{
+  "users":[{
+      "name":"Jordan",
+      "age": "23",
+      "occupation":"Designer"
+    },
+    {
+      "name" : "Joe",
+      "age" : "25",
+      "occupation" : "Copywriter"
+
+    },
+    {
+      "name" : "Sally",
+      "age" : "30",
+      "occupation" : "Account Manager"
+
+    },
+    {
+      "name" : "Matt",
+      "age" : "32",
+      "occupation" : "UX Designer"
+
+    },
+    {
+      "name" : "Steve",
+      "age" : "32",
+      "occupation" : "Software Developer"
+
+    },
+    {
+      "name" : "Wendy",
+      "age" : "43",
+      "occupation" : "Producer"
+
+    },
+    {
+      "name" : "Ben",
+      "age" : "45",
+      "occupation" : "Project Manager"
+
+    }]
+
+
+
+}
