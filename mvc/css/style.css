@@ -26,21 +26,44 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+     position: absolute;
+	   width: 100%;
+     height:100%;
+	   margin: 0;
+     padding: 0;
+     background-color: purple;
+     font-size: 16px;
 }
 
-
-/******************************************
-/* LAYOUT
-/*******************************************/
-
-/* Center the container */
-body {
-	width: 100%;
-  height:100%;
-	margin: 0;
-  padding: 0;
+#container {
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  width: 66.6666666667%;
+  height: auto;
+  margin-left: -33.333333333%;
+  perspective: 500px;
+  transform-style: preserve-3d;
 }
 
+.user {
+  width: 29.333333333%;
+  padding: 4% 2%; /* Top,Right,bottom,left */
+  margin: 2% 2%;
+  position: relative;
+  float: left;
+  text-align: center;
+  background-color: white;
+  border-radius: 6px;
+  transform: translate3d(0px,60px,-60px);
+  opacity: 0;
+  transition: opacity 1.2s, transform 1.0s
+}
+
+.active {
+  opacity: 1.0;
+  transform: translate3d(0px,0px,0px);
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
