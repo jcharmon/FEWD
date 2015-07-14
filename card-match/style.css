@@ -99,6 +99,13 @@ body {
 
 }
 
+.spade .suit {
+
+margin-left: 35px;
+margin-top: 45px;
+}
+
+
 
 #table {
 margin: 0 auto;
