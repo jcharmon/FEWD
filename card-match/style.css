@@ -22,6 +22,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+  border-radius: 16px;
   transform: rotateX(0deg);
   transition: all 1s;
   transform-style: preserve-3d;
@@ -43,6 +44,8 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+  border-radius: 16px;
+
 }
 
 .front {
@@ -79,45 +82,22 @@ body {
 }
 
 
-
-
 .back {
   position: absolute;
   background-image: url("img/bicycle-back.jpg");
 }
 
-
-
-/*
-.card {
-  position: relative;
-  float: left;
-  background-image: url("img/bicycle-back.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  width: 150px;
-  height: 200px;
-  margin: 15px;
+.suit {
   border-radius: 16px;
-  transition: all 0.9s;
+  margin-left: 25px;
+  margin-top: 45px;
 }
 
-.card:hover {
-  position: relative;
-  float: left;
-  z-index: 2;
-  transform: rotatex(180deg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  background-image: url("img/french-suits.svg");
-  background-color: white;
+.diamond .suit {
+  margin-left: 35px;
+  margin-top: 45px;
+
 }
-*/
-
-
-
 
 
 #table {
@@ -129,7 +109,7 @@ margin: 0 auto;
 
 }
 
-#suite {
+.suit {
 
 
 }
