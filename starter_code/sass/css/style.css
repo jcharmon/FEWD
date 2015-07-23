@@ -1,0 +1,228 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/******************************************
+/* SETUP
+/*******************************************/
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box;
+  /* Firefox */
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box;
+  /* IE */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body {
+  color: #121212;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: -webkit-radial-gradient(50% 50%, circle, #1be7ff, #6eeb83);
+  background-image: radial-gradient(circle at 50% 50%, #1be7ff, #6eeb83);
+}
+
+#container {
+  display: block;
+  width: 98%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#container .grid {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#container .grid::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.card {
+  display: block;
+  min-height: 320px;
+  border-radius: 8px;
+  margin: 1% 0;
+  background: #fefefe;
+}
+
+@media screen and (min-width: 1920px) and (max-width: 5000px) {
+  .card {
+    float: left;
+    display: block;
+    margin-right: 1.75788%;
+    width: 23.68159%;
+  }
+  .card:last-child {
+    margin-right: 0;
+  }
+  .card:nth-child(4n) {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .card {
+    float: left;
+    display: block;
+    margin-right: 1.75788%;
+    width: 23.68159%;
+  }
+  .card:last-child {
+    margin-right: 0;
+  }
+  .card:nth-child(4n) {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+  .card {
+    float: left;
+    display: block;
+    margin-right: 1.75788%;
+    width: 23.68159%;
+  }
+  .card:last-child {
+    margin-right: 0;
+  }
+  .card:nth-child(4n) {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .card {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+  }
+  .card:last-child {
+    margin-right: 0;
+  }
+  .card:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 569px) and (max-width: 768px) {
+  .card {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%;
+  }
+  .card:last-child {
+    margin-right: 0;
+  }
+  .card:nth-child(4n) {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 568px) {
+  .card {
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 46.28851%;
+  }
+  .card:last-child {
+    margin-right: 0;
+  }
+  .card:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .card {
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 100%;
+  }
+  .card:last-child {
+    margin-right: 0;
+  }
+  .card:nth-child(n) {
+    margin-right: 0;
+  }
+}
