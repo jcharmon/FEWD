@@ -1,0 +1,1 @@
+var feed=new Instafeed({get:"user",userId:179619423,clientId:"4557797146124a19875aa7159e2810c6",accessToken:"19721316.4557797.b809c68a1c184fcb83ce134e1b9f7aae",limit:4,resolution:"standard_resolution"});feed.run();
